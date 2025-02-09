@@ -23,10 +23,7 @@
         .section-content {
             margin-left: 20px;
         }
-h1{
-        text-align: center;
-        color: red;
-        line-height: 100px;
-        margin: 0;
-}
-        
+        h1{
+            color: red;
+        }
+
