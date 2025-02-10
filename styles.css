@@ -1,29 +1,94 @@
-/* styles.css */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-        }
-        .header {
-            text-align: center;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section-title {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            border-bottom: 2px solid #000;
-        }
-        .section-content {
-            margin-left: 20px;
-        }
-        h1{
-            color: red;
-        }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+    color: #3e3e3e;
+    margin: 20px;
+    padding: 0;
+}
 
+.resume-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #080808;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.profile-picture {
+    width: 100px; /* Adjust the size as needed */
+    height: 130px; /* Adjust the size as needed */
+    border-radius: 10%; /* Makes the image circular */
+    border: 3px solid #707070; /* Adds a border */
+    margin-bottom: 10px;
+}
+
+.flex-header {
+    display: flex;
+    align-items: center; /* Vertically center the image and text */
+    gap: 20px; /* Add spacing between the image and text */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #000000;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+h2 {
+    color: #d4af37;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li h3 {
+    font-size: 1.4em;
+    color: #3e3e3e;
+    margin: 0;
+}
+
+ul li p {
+    margin: 5px 0;
+    color: #777;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section-title {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+.section-content {
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #d4af37;
+    color: #777;
+}
